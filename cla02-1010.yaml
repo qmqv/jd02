@@ -53,70 +53,120 @@ tun:
 
 
 proxies:
-  - type: trojan
-    name: 01(TG:@tccjd)
-    server: psg2-ag.t.sgateway.link
-    port: 5223
-    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  - type: vmess
+    name: 美国
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     network: tcp
-    sni: pod-kr-g1.psusercontent.com
-    tls: true
-  - type: vless
-    name: 02(TG:@tccjd)
-    server: 20.235.105.146
+    cipher: auto
+    servername: hk.nbee.pp.ua
+  - type: vmess
+    name: 美国_1
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国_2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: tianjiu.pages.dev
+  - type: vmess
+    name: 美国_3
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: joss.gpj1.web.id
+  - type: vmess
+    name: 美国_4
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%2Fripaojiedian
+  - type: vmess
+    name: 美国_5
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
+    name: 美国_6
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国_7
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: n1744454498.lie5d.cyou
+  - type: vmess
+    name: 美国_8
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: green2.cdntencentmusic.com
+  - type: vmess
+    name: 美国_9
+    server: 47.243.69.126
+    port: 31904
+    uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 47.243.69.126
+  - type: vmess
+    name: 美国_10
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: v12.hdacd.com
+  - type: vmess
+    name: 美国_11
+    server: 47.243.69.126
+    port: 31904
+    uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国_12
+    server: B70-B127-17F0Dc22455E.457.Pp.Ua
     port: 443
-    uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-    network: ws
-    servername: ak.suoni.nyc.mn
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ak.suoni.nyc.mn
-    client-fingerprint: random
-  - type: trojan
-    name: 03(TG:@tccjd)
-    server: psg2-ag.t.sgateway.link
-    port: 5223
-    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-    network: tcp
-    sni: pod-kr-g1.psusercontent.com
-    tls: true
-  - type: trojan
-    name: 04(TG:@tccjd)
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 05(TG:@tccjd)
-    server: psg2-ag.t.sgateway.link
-    port: 5223
-    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-    network: tcp
-    sni: pod-kr-g1.psusercontent.com
-    tls: true
-  - type: trojan
-    name: 05(TG:@tccjd)_1
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 06(TG:@tccjd)
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
+    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
+    alterId: 0
+    network: xhttp
+    cipher: auto
+    servername: b70-B127-17f0Dc22455E.457.pP.ua
     tls: true
   - type: ss
     name: 🇰🇿 哈萨克斯坦 01
@@ -125,156 +175,23 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
   - type: ss
-    name: 01(TG:@tccjd)_1
+    name: 01(TG:@tccjd)
     server: 23.95.75.146
     port: 443
     cipher: chacha20-ietf-poly1305
     password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  - type: vless
-    name: 02(TG:@tccjd)_1
-    server: 45.92.219.50
-    port: 443
-    uuid: 267e5284-8c31-42ed-9807-2182a88ca78b
-    network: tcp
-    servername: ozon.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
-      short-id: 19aa22f681923dc8
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: ss
     name: 🇺🇸 US美国(TG:@tccjd)
     server: 23.95.75.146
     port: 443
     cipher: chacha20-ietf-poly1305
     password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  - type: trojan
-    name: 🇭🇰 香港4|@stairnode
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 03(TG:@tccjd)_1
-    server: nl01-ss01.tcp-reset-club.net
-    port: 8443
-    uuid: a4d62ac0-fd19-4d7d-b65f-5ac8f0323372
-    network: tcp
-    servername: stats.vk-portal.net
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-      spider-x: /
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: ss
     name: 🇷🇺 RU俄罗斯(TG:@tccjd)
     server: 213.159.67.124
     port: 443
     cipher: chacha20-ietf-poly1305
     password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  - type: vless
-    name: 04(TG:@tccjd)_1
-    server: pl.dznn.net
-    port: 443
-    uuid: 267e5284-8c31-42ed-9807-2182a88ca78b
-    network: tcp
-    servername: api.mindbox.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
-      short-id: 19aa22f681923dc8
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 🇭🇰 香港5|@stairnode
-    server: 58.152.30.175
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 05(TG:@tccjd)_2
-    server: 89.23.113.137
-    port: 49943
-    uuid: _911331
-    network: tcp
-    servername: ietf.org
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-      short-id: ffffffffff
-    client-fingerprint: random
-  - type: vless
-    name: 06(TG:@tccjd)_1
-    server: plb.tunnelguard.ru
-    port: 443
-    uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-    network: http
-    servername: plb.tunnelguard.ru
-    tls: true
-    encryption: none
-    http-opts:
-      path: /
-    client-fingerprint: firefox
-    alpn:
-      - h2
-      - http/1.1
-  - type: vless
-    name: 07(TG:@tccjd)
-    server: ru-cdn-cloud-2.ultima.foundation
-    port: 443
-    uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    network: tcp
-    servername: sun6-21.userapi.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-      short-id: a9725715bf4c62ff
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 08(TG:@tccjd)
-    server: plb.tunnelguard.ru
-    port: 443
-    uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-    network: http
-    servername: plb.tunnelguard.ru
-    tls: true
-    encryption: none
-    http-opts:
-      path: /
-    client-fingerprint: firefox
-    alpn:
-      - h2
-      - http/1.1
-  - type: vless
-    name: 09(TG:@tccjd)
-    server: plb.tunnelguard.ru
-    port: 443
-    uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-    network: http
-    servername: plb.tunnelguard.ru
-    tls: true
-    encryption: none
-    http-opts:
-      path: /
-    client-fingerprint: firefox
-    alpn:
-      - h2
-      - http/1.1
   - type: ss
     name: 🇺🇸 US美国(TG:@tccjd)_1
     server: 45.83.22.118
@@ -287,171 +204,98 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
-  - type: vless
-    name: 10(TG:@tccjd)
-    server: 25.25.25.253
-    port: 2096
-    uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-    network: ws
-    servername: alanconf.info
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: alanconf.info
   - type: ss
     name: 🇦🇺 AU澳大利亚(TG:@tccjd)
     server: 95.111.222.113
     port: 443
     cipher: chacha20-ietf-poly1305
     password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  - type: vless
-    name: 11(TG:@tccjd)
-    server: 25.25.25.253
-    port: 2096
-    uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-    network: ws
-    servername: alanconf.info
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: alanconf.info
-    alpn:
-      - h3h2
-  - type: trojan
-    name: 01(TG:@tccjd)_2
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 02(TG:@tccjd)_2
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 01(TG:@tccjd)_3
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 02(TG:@tccjd)_3
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 03(TG:@tccjd)_2
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - type: ss
-    name: 01(TG:@tccjd)_4
+    name: 01(TG:@tccjd)_1
     server: 103.106.3.82
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
   - type: ss
-    name: 02(TG:@tccjd)_4
+    name: 02(TG:@tccjd)
     server: 23.95.75.146
     port: 443
     cipher: chacha20-ietf-poly1305
     password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   - type: ss
-    name: 03(TG:@tccjd)_3
+    name: 03(TG:@tccjd)
     server: 23.95.75.146
     port: 443
     cipher: chacha20-ietf-poly1305
     password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   - type: ss
-    name: 04(TG:@tccjd)_2
+    name: 04(TG:@tccjd)
     server: 45.93.95.187
     port: 8618
     cipher: chacha20-ietf-poly1305
     password: 4lUEC91c1d8oeClzDbYpXA
   - type: ss
-    name: 01(TG:@tccjd)_5
+    name: 01(TG:@tccjd)_2
     server: 82.38.31.205
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 02(TG:@tccjd)_5
+    name: 02(TG:@tccjd)_1
     server: 82.38.31.176
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 03(TG:@tccjd)_4
+    name: 03(TG:@tccjd)_1
     server: 82.38.31.190
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 04(TG:@tccjd)_3
+    name: 04(TG:@tccjd)_1
     server: 45.83.20.206
     port: 443
     cipher: chacha20-ietf-poly1305
     password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
   - type: ss
-    name: 05(TG:@tccjd)_3
+    name: 05(TG:@tccjd)
     server: 82.38.31.205
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 06(TG:@tccjd)_2
+    name: 06(TG:@tccjd)
     server: 82.38.31.199
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 07(TG:@tccjd)_1
+    name: 07(TG:@tccjd)
     server: 82.38.31.199
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 08(TG:@tccjd)_1
+    name: 08(TG:@tccjd)
     server: 82.38.31.199
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 09(TG:@tccjd)_1
+    name: 09(TG:@tccjd)
     server: 82.38.31.205
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 10(TG:@tccjd)_1
+    name: 10(TG:@tccjd)
     server: 82.38.31.184
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: 11(TG:@tccjd)_1
+    name: 11(TG:@tccjd)
     server: 82.38.31.190
     port: 8080
     cipher: chacha20-ietf-poly1305
@@ -498,8 +342,168 @@ proxies:
     port: 56689
     cipher: chacha20-ietf-poly1305
     password: YQCSKoCF3QazW8YlvDBWA4
+  - type: ss
+    name: 俄罗斯
+    server: 213.159.67.124
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  - type: ss
+    name: 荷兰
+    server: 146.19.49.251
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  - type: ss
+    name: 美国_13
+    server: 23.95.75.146
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  - type: ss
+    name: 法国
+    server: 95.111.222.113
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
+  - type: ss
+    name: 俄罗斯_1
+    server: 213.159.67.124
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  - type: ss
+    name: 俄罗斯_2
+    server: 213.159.67.124
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  - type: ss
+    name: 俄罗斯_3
+    server: 109.71.246.210
+    port: 56689
+    cipher: chacha20-ietf-poly1305
+    password: YQCSKoCF3QazW8YlvDBWA4
+  - type: ss
+    name: 法国_1
+    server: 95.111.222.113
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
   - type: vless
-    name: 01(TG:@tccjd)_6
+    name: 02(TG:@tccjd)_2
+    server: 20.235.105.146
+    port: 443
+    uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
+    network: ws
+    servername: ak.suoni.nyc.mn
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: ak.suoni.nyc.mn
+    client-fingerprint: random
+  - type: vless
+    name: 02(TG:@tccjd)_3
+    server: 45.92.219.50
+    port: 443
+    uuid: 267e5284-8c31-42ed-9807-2182a88ca78b
+    network: tcp
+    servername: ozon.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
+      short-id: 19aa22f681923dc8
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 03(TG:@tccjd)_2
+    server: nl01-ss01.tcp-reset-club.net
+    port: 8443
+    uuid: a4d62ac0-fd19-4d7d-b65f-5ac8f0323372
+    network: tcp
+    servername: stats.vk-portal.net
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+      spider-x: /
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 04(TG:@tccjd)_2
+    server: pl.dznn.net
+    port: 443
+    uuid: 267e5284-8c31-42ed-9807-2182a88ca78b
+    network: tcp
+    servername: api.mindbox.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
+      short-id: 19aa22f681923dc8
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 05(TG:@tccjd)_1
+    server: 89.23.113.137
+    port: 49943
+    uuid: _911331
+    network: tcp
+    servername: ietf.org
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
+      short-id: ffffffffff
+    client-fingerprint: random
+  - type: vless
+    name: 07(TG:@tccjd)_1
+    server: ru-cdn-cloud-2.ultima.foundation
+    port: 443
+    uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+    network: tcp
+    servername: sun6-21.userapi.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
+      short-id: a9725715bf4c62ff
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 10(TG:@tccjd)_1
+    server: 25.25.25.253
+    port: 2096
+    uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+    network: ws
+    servername: alanconf.info
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: alanconf.info
+  - type: vless
+    name: 11(TG:@tccjd)_1
+    server: 25.25.25.253
+    port: 2096
+    uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+    network: ws
+    servername: alanconf.info
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: alanconf.info
+    alpn:
+      - h3h2
+  - type: vless
+    name: 01(TG:@tccjd)_3
     server: 141.227.136.51
     port: 25686
     uuid: 04f6bfd1-f978-4634-910f-2c687aef2b8b
@@ -507,24 +511,8 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  - type: trojan
-    name: 02(TG:@tccjd)_6
-    server: azerb.net
-    port: 443
-    password: trojan
-    network: ws
-    sni: store.timimi.dpdns.org
-    alpn:
-      - h2
-      - http/1.1
-    fingerprint: chrome
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: store.timimi.dpdns.org
   - type: vless
-    name: 03(TG:@tccjd)_5
+    name: 03(TG:@tccjd)_3
     server: 141.227.136.51
     port: 25686
     uuid: 04f6bfd1-f978-4634-910f-2c687aef2b8b
@@ -534,7 +522,7 @@ proxies:
       grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
       grpc-authority: Join---V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz
   - type: vless
-    name: 04(TG:@tccjd)_4
+    name: 04(TG:@tccjd)_3
     server: 164.92.143.135
     port: 47542
     uuid: 02529660-52bf-4896-951a-1857c88d1dba
@@ -546,23 +534,6 @@ proxies:
       public-key: krsHuR6-NfPzTvW8uE9b_Xbjj-48yI91kLqhx4tWPUg
       short-id: 7a6d1a
     client-fingerprint: chrome
-  - type: trojan
-    name: 05(TG:@tccjd)_4
-    server: kuame.missionsec.us
-    port: 443
-    password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
-    network: tcp
-    sni: kuame.missionsec.us
-    tls: true
-  - type: trojan
-    name: 06(TG:@tccjd)_3
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 07(TG:@tccjd)_2
     server: 141.227.136.51
@@ -572,17 +543,8 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  - type: trojan
-    name: 08(TG:@tccjd)_2
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 09(TG:@tccjd)_2
+    name: 09(TG:@tccjd)_1
     server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
     port: 443
     uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
@@ -614,16 +576,6 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  - type: trojan
-    name: 12(TG:@tccjd)_1
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: m.vk.com
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 13(TG:@tccjd)_1
     server: 141.227.136.51
@@ -649,7 +601,7 @@ proxies:
     alpn:
       - http/1.1
   - type: vless
-    name: 01(TG:@tccjd)_7
+    name: 01(TG:@tccjd)_4
     server: 141.227.132.7
     port: 21424
     uuid: 20ed0e88-1f8a-47d3-a753-dfc667184dde
@@ -658,7 +610,7 @@ proxies:
     grpc-opts:
       grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   - type: vless
-    name: 02(TG:@tccjd)_7
+    name: 02(TG:@tccjd)_4
     server: 141.227.132.7
     port: 21424
     uuid: 20ed0e88-1f8a-47d3-a753-dfc667184dde
@@ -667,7 +619,7 @@ proxies:
     grpc-opts:
       grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   - type: vless
-    name: 03(TG:@tccjd)_6
+    name: 03(TG:@tccjd)_4
     server: inst.faceppm.ru
     port: 1888
     uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
@@ -680,7 +632,7 @@ proxies:
       short-id: 16b7f8a207cda6e3
     flow: xtls-rprx-vision
   - type: vless
-    name: 04(TG:@tccjd)_5
+    name: 04(TG:@tccjd)_4
     server: 185.42.163.177
     port: 1888
     uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
@@ -1166,7 +1118,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 01(TG:@tccjd)_8
+    name: 01(TG:@tccjd)_5
     server: 45.92.219.50
     port: 443
     uuid: 267e5284-8c31-42ed-9807-2182a88ca78b
@@ -1180,7 +1132,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 02(TG:@tccjd)_8
+    name: 02(TG:@tccjd)_5
     server: at.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1195,7 +1147,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 03(TG:@tccjd)_7
+    name: 03(TG:@tccjd)_5
     server: at.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1209,7 +1161,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 04(TG:@tccjd)_6
+    name: 04(TG:@tccjd)_5
     server: de-cdn.ultima.foundation
     port: 443
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1222,7 +1174,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 05(TG:@tccjd)_5
+    name: 05(TG:@tccjd)_2
     server: at.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1237,7 +1189,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 06(TG:@tccjd)_4
+    name: 06(TG:@tccjd)_1
     server: nl5.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1264,7 +1216,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 08(TG:@tccjd)_3
+    name: 08(TG:@tccjd)_1
     server: at.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1278,7 +1230,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 09(TG:@tccjd)_3
+    name: 09(TG:@tccjd)_2
     server: nl5.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1319,7 +1271,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 12(TG:@tccjd)_2
+    name: 12(TG:@tccjd)_1
     server: at.ultima.foundation
     port: 22231
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -1471,7 +1423,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国
+    name: 美国_14
     server: 108.162.198.11
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1498,7 +1450,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_1
+    name: 美国_15
     server: 108.162.198.24
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1512,7 +1464,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_2
+    name: 美国_16
     server: freeyx.cloudflare88.eu.org
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1525,7 +1477,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_3
+    name: 美国_17
     server: freeyx.cloudflare88.eu.org
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1541,7 +1493,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_4
+    name: 美国_18
     server: 108.162.198.11
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1554,7 +1506,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_5
+    name: 美国_19
     server: 108.162.198.24
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1565,7 +1517,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_6
+    name: 美国_20
     server: 108.162.198.24
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1578,7 +1530,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_7
+    name: 美国_21
     server: 68.64.176.135
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1591,7 +1543,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_8
+    name: 美国_22
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1616,7 +1568,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_9
+    name: 美国_23
     server: 68.64.176.135
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1629,25 +1581,8 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
-  - type: vmess
-    name: 美国_10
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: hk.nbee.pp.ua
-  - type: vmess
-    name: 美国_11
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
   - type: vless
-    name: 美国_12
+    name: 美国_24
     server: 98.70.151.163
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1657,17 +1592,8 @@ proxies:
     encryption: none
     ws-opts:
       path: /?ed=2560
-  - type: vmess
-    name: 美国_13
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: tianjiu.pages.dev
   - type: vless
-    name: 美国_14
+    name: 美国_25
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1689,7 +1615,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 法国
+    name: 法国_2
     server: 51.195.43.174
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1703,7 +1629,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 法国_1
+    name: 法国_3
     server: 51.195.102.180
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1716,7 +1642,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯
+    name: 俄罗斯_4
     server: 185.103.252.54
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1731,17 +1657,8 @@ proxies:
     client-fingerprint: random
     alpn:
       - h3
-  - type: trojan
-    name: 香港_3
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - type: vless
-    name: 俄罗斯_1
+    name: 俄罗斯_5
     server: 185.103.252.54
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1755,7 +1672,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_15
+    name: 美国_26
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1768,7 +1685,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_16
+    name: 美国_27
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1794,33 +1711,8 @@ proxies:
       public-key: gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng
     client-fingerprint: edge
     flow: xtls-rprx-vision
-  - type: vmess
-    name: 美国_17
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: joss.gpj1.web.id
-  - type: vmess
-    name: 美国_18
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: t.me%2Fripaojiedian
-  - type: hysteria2
-    name: 法国_2
-    server: 163.172.21.105
-    port: 5355
-    password: dongtaiwang.com
-    skip-cert-verify: true
-    sni: www.bing.com
   - type: vless
-    name: 香港_4
+    name: 香港_3
     server: 202.85.53.160
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1832,15 +1724,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: vmess
-    name: 美国_19
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: trojan.burgerip.co.uk
   - type: vless
     name: 德国
     server: 49.12.210.182
@@ -1866,7 +1749,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 香港_5
+    name: 香港_4
     server: 202.85.53.160
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1880,7 +1763,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 法国_3
+    name: 法国_4
     server: 51.195.102.180
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1971,7 +1854,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_20
+    name: 美国_28
     server: 154.17.225.73
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1984,7 +1867,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_2
+    name: 俄罗斯_6
     server: 80.76.32.12
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1994,25 +1877,8 @@ proxies:
     encryption: none
     ws-opts:
       path: /?ed=2560
-  - type: vmess
-    name: 美国_21
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vmess
-    name: 美国_22
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: n1744454498.lie5d.cyou
   - type: vless
-    name: 美国_23
+    name: 美国_29
     server: 205.198.94.5
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2027,7 +1893,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 香港_6
+    name: 香港_5
     server: 202.85.53.77
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2053,7 +1919,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 法国_4
+    name: 法国_5
     server: 51.195.102.180
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2066,140 +1932,6 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
-  - type: trojan
-    name: 香港_7
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "       [By EbraSha] b2n.ir/v2ray-configs | 690 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: vless
-    name: 俄罗斯_3
-    server: 80.76.32.12
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-  - type: vless
-    name: 美国_24
-    server: 213.142.149.3
-    port: 8443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-    client-fingerprint: chrome
-  - type: vless
-    name: 俄罗斯_4
-    server: 83.147.255.67
-    port: 8443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-    client-fingerprint: random
-    alpn:
-      - h3
-  - type: vless
-    name: 俄罗斯_5
-    server: 83.147.255.67
-    port: 8443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-  - type: vless
-    name: 美国_25
-    server: 98.70.151.190
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-    client-fingerprint: chrome
-  - type: vless
-    name: 法国_5
-    server: 51.195.43.174
-    port: 8443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-  - type: vless
-    name: 美国_26
-    server: 98.70.151.190
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-    client-fingerprint: random
-    alpn:
-      - h3
-  - type: ss
-    name: 俄罗斯_6
-    server: 213.159.67.124
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  - type: ss
-    name: 荷兰
-    server: 146.19.49.251
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  - type: vless
-    name: 美国_27
-    server: 206.189.25.65
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
   - type: vless
     name: 俄罗斯_7
     server: 80.76.32.12
@@ -2213,11 +1945,123 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
+  - type: vless
+    name: 美国_30
+    server: 213.142.149.3
+    port: 8443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+    client-fingerprint: chrome
+  - type: vless
+    name: 俄罗斯_8
+    server: 83.147.255.67
+    port: 8443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: random
     alpn:
       - h3
   - type: vless
-    name: 美国_28
+    name: 俄罗斯_9
+    server: 83.147.255.67
+    port: 8443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+  - type: vless
+    name: 美国_31
+    server: 98.70.151.190
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+    client-fingerprint: chrome
+  - type: vless
+    name: 法国_6
+    server: 51.195.43.174
+    port: 8443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+  - type: vless
+    name: 美国_32
+    server: 98.70.151.190
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: 美国_33
+    server: 206.189.25.65
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+  - type: vless
+    name: 俄罗斯_10
+    server: 80.76.32.12
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: 美国_34
     server: 206.189.25.65
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2228,7 +2072,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_29
+    name: 美国_35
     server: 91.149.253.249
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2242,7 +2086,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_30
+    name: 美国_36
     server: 167.99.86.115
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2253,7 +2097,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_31
+    name: 美国_37
     server: 213.142.149.3
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2277,7 +2121,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_32
+    name: 美国_38
     server: 167.99.86.115
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2292,14 +2136,8 @@ proxies:
     client-fingerprint: random
     alpn:
       - h3
-  - type: ss
-    name: 美国_33
-    server: 23.95.75.146
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   - type: vless
-    name: 美国_34
+    name: 美国_39
     server: 167.99.86.115
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2312,7 +2150,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_35
+    name: 美国_40
     server: 98.70.151.190
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2323,7 +2161,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_36
+    name: 美国_41
     server: 213.142.149.3
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2352,7 +2190,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_8
+    name: 俄罗斯_11
     server: 83.147.255.67
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2388,7 +2226,7 @@ proxies:
     client-fingerprint: qq
     flow: xtls-rprx-vision
   - type: vless
-    name: 美国_37
+    name: 美国_42
     server: 129.150.49.58
     port: 18650
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2403,17 +2241,8 @@ proxies:
     client-fingerprint: random
     alpn:
       - h3
-  - type: vmess
-    name: 美国_38
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: green2.cdntencentmusic.com
   - type: vless
-    name: 美国_39
+    name: 美国_43
     server: 206.189.25.65
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2427,7 +2256,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 俄罗斯_9
+    name: 俄罗斯_12
     server: wolfy.ufavpn.ru
     port: 52900
     uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
@@ -2440,7 +2269,7 @@ proxies:
       short-id: 1fbc
     client-fingerprint: chrome
   - type: vless
-    name: 俄罗斯_10
+    name: 俄罗斯_13
     server: 62.60.148.21
     port: 443
     uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
@@ -2454,7 +2283,7 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 俄罗斯_11
+    name: 俄罗斯_14
     server: wolfy.ufavpn.ru
     port: 42275
     uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
@@ -2467,7 +2296,7 @@ proxies:
       short-id: "08"
     client-fingerprint: chrome
   - type: vless
-    name: 香港_8
+    name: 香港_6
     server: 202.85.53.54
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2481,7 +2310,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 俄罗斯_12
+    name: 俄罗斯_15
     server: 77.221.157.32
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2492,7 +2321,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 俄罗斯_13
+    name: 俄罗斯_16
     server: 77.221.157.32
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2506,7 +2335,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 香港_9
+    name: 香港_7
     server: 202.85.53.54
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2519,7 +2348,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 法国_6
+    name: 法国_7
     server: 91.149.253.249
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2532,7 +2361,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_40
+    name: 美国_44
     server: 68.64.176.135
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2548,7 +2377,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_41
+    name: 美国_45
     server: 167.99.86.115
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2562,7 +2391,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 香港_10
+    name: 香港_8
     server: 202.85.53.54
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2572,17 +2401,8 @@ proxies:
     encryption: none
     ws-opts:
       path: /?ed=2560
-  - type: trojan
-    name: 美国_42
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 02(TG:@tccjd)_9
+    name: 02(TG:@tccjd)_6
     server: ru-cdn-cloud-2.ultima.foundation
     port: 443
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -2595,26 +2415,6 @@ proxies:
       short-id: a9725715bf4c62ff
     client-fingerprint: chrome
     flow: xtls-rprx-vision
-  - type: trojan
-    name: 俄罗斯_14
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: ������
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 俄罗斯_15
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: "������ [By EbraSha] trojan-RU "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 伊朗
     server: 178.236.16.98
@@ -2628,16 +2428,6 @@ proxies:
       public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
       short-id: 69a2
     client-fingerprint: chrome
-  - type: trojan
-    name: 俄罗斯_16
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 587 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 俄罗斯_17
     server: inst.faceppm.ru
@@ -2652,7 +2442,7 @@ proxies:
       short-id: 16b7f8a207cda6e3
     flow: xtls-rprx-vision
   - type: vless
-    name: 美国_43
+    name: 美国_46
     server: 80.90.187.190
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2668,7 +2458,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_44
+    name: 美国_47
     server: 80.90.187.190
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2706,18 +2496,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 俄罗斯_20
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: "������ [By EbraSha] "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 俄罗斯_21
+    name: 俄罗斯_20
     server: 80.90.187.190
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2744,7 +2524,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 01(TG:@tccjd)_9
+    name: 01(TG:@tccjd)_6
     server: 194.35.119.135
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2757,7 +2537,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_22
+    name: 俄罗斯_21
     server: 85.193.95.23
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2796,17 +2576,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 俄罗斯_23
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: 37.18.14.33
-    skip-cert-verify: true
-    tls: true
   - type: vless
-    name: 俄罗斯_24
+    name: 俄罗斯_22
     server: 85.193.95.220
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2822,7 +2593,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 俄罗斯_25
+    name: 俄罗斯_23
     server: 193.123.90.82
     port: 12648
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2833,7 +2604,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 俄罗斯_26
+    name: 俄罗斯_24
     server: 194.35.119.135
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2844,7 +2615,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 俄罗斯_27
+    name: 俄罗斯_25
     server: 85.193.95.220
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2870,7 +2641,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_28
+    name: 俄罗斯_26
     server: 193.123.90.82
     port: 12648
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2895,14 +2666,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: ss
-    name: 法国_7
-    server: 95.111.222.113
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
   - type: vless
-    name: 美国_45
+    name: 美国_48
     server: 85.193.95.23
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2930,18 +2695,8 @@ proxies:
     client-fingerprint: random
     alpn:
       - h3
-  - type: trojan
-    name: 香港_11
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 美国_46
+    name: 美国_49
     server: 80.90.187.190
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2954,7 +2709,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_29
+    name: 俄罗斯_27
     server: 85.193.95.23
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -2980,7 +2735,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_30
+    name: 俄罗斯_28
     server: 178.236.16.98
     port: 35728
     uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
@@ -2993,7 +2748,7 @@ proxies:
       short-id: 69a2
     client-fingerprint: chrome
   - type: vless
-    name: 俄罗斯_31
+    name: 俄罗斯_29
     server: 85.193.95.23
     port: 8443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3006,16 +2761,6 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
-  - type: trojan
-    name: 香港_12
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 964 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 德国_11
     server: 139.185.34.131
@@ -3030,26 +2775,6 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
-  - type: trojan
-    name: 俄罗斯_32
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: sun9-101.userapi.com
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 俄罗斯_33
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 28 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 新加坡_1
     server: 139.185.50.5
@@ -3065,7 +2790,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_47
+    name: 美国_50
     server: 193.123.90.82
     port: 12648
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3078,7 +2803,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_48
+    name: 美国_51
     server: 193.123.90.82
     port: 12648
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3092,7 +2817,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_49
+    name: 美国_52
     server: 193.123.90.82
     port: 12648
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3105,7 +2830,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 俄罗斯_34
+    name: 俄罗斯_30
     server: ru-cdn-cloud-2.ultima.foundation
     port: 443
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -3118,17 +2843,8 @@ proxies:
       short-id: a9725715bf4c62ff
     client-fingerprint: chrome
     flow: xtls-rprx-vision
-  - type: trojan
-    name: 香港_13
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.53.8
-    skip-cert-verify: true
-    tls: true
   - type: vless
-    name: 俄罗斯_35
+    name: 俄罗斯_31
     server: wolfy.ufavpn.ru
     port: 52900
     uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
@@ -3141,7 +2857,7 @@ proxies:
       short-id: 1fbc
     client-fingerprint: chrome
   - type: vless
-    name: 俄罗斯_36
+    name: 俄罗斯_32
     server: wolfy.ufavpn.ru
     port: 42275
     uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
@@ -3153,15 +2869,6 @@ proxies:
       public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
       short-id: "08"
     client-fingerprint: chrome
-  - type: trojan
-    name: 美国_50
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 德国_12
     server: 45.150.33.198
@@ -3188,14 +2895,8 @@ proxies:
       public-key: gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng
     client-fingerprint: qq
     flow: xtls-rprx-vision
-  - type: ss
-    name: 俄罗斯_37
-    server: 213.159.67.124
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   - type: vless
-    name: 美国_51
+    name: 美国_53
     server: 129.150.49.58
     port: 18650
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3232,16 +2933,6 @@ proxies:
       path: /vless/
       headers:
         Host: ov-canada1.09vpn.com
-  - type: trojan
-    name: 香港_14
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 749 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 英国_1
     server: 83.147.255.67
@@ -3271,26 +2962,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 香港_15
-    server: 112.118.116.66
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_16
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 956 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 美国_52
+    name: 美国_54
     server: 98.70.151.190
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3304,7 +2977,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_53
+    name: 美国_55
     server: 68.64.176.135
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3316,15 +2989,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: hysteria2
-    name: 香港_17
-    server: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
-    port: 443
-    password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-    skip-cert-verify: true
-    sni: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
   - type: vless
-    name: 美国_54
+    name: 美国_56
     server: 205.198.94.5
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3336,16 +3002,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 香港_18
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 851 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 德国_15
     server: 142.132.140.130
@@ -3363,7 +3019,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_55
+    name: 美国_57
     server: 83.142.30.4
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3375,18 +3031,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 香港_19
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: ������
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 美国_56
+    name: 美国_58
     server: 188.114.97.3
     port: 80
     uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc
@@ -3397,15 +3043,6 @@ proxies:
       path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
       headers:
         Host: 024.electrocellco-cf-024.workers.dev
-  - type: trojan
-    name: 香港_20
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - type: vless
     name: 德国_16
     server: 142.132.140.130
@@ -3421,7 +3058,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_57
+    name: 美国_59
     server: 146.56.99.255
     port: 56789
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3449,16 +3086,6 @@ proxies:
     client-fingerprint: random
     alpn:
       - h3
-  - type: trojan
-    name: 香港_21
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 987 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
     name: 奥地利_1
     server: at.ultima.foundation
@@ -3513,17 +3140,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 香港_22
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.18.95
-    skip-cert-verify: true
-    tls: true
   - type: vless
-    name: 美国_58
+    name: 美国_60
     server: 188.114.97.3
     port: 80
     uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc
@@ -3535,7 +3153,7 @@ proxies:
       headers:
         Host: 024.electrocellco-cf-024.workers.dev
   - type: vless
-    name: 香港_23
+    name: 香港_9
     server: 202.85.53.160
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3549,7 +3167,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 香港_24
+    name: 香港_10
     server: 202.85.53.160
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3562,7 +3180,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 香港_25
+    name: 香港_11
     server: 202.85.53.77
     port: 7000
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3575,7 +3193,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_59
+    name: 美国_61
     server: blackshadow.dpdns.org
     port: 443
     uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
@@ -3602,18 +3220,8 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
-  - type: trojan
-    name: 香港_26
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "      "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: vless
-    name: 美国_60
+    name: 美国_62
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3627,7 +3235,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_61
+    name: 美国_63
     server: blackshadow.dpdns.org
     port: 443
     uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
@@ -3640,7 +3248,7 @@ proxies:
       headers:
         Host: blackshadow.dpdns.org
   - type: vless
-    name: 美国_62
+    name: 美国_64
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3669,7 +3277,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_63
+    name: 美国_65
     server: 104.26.15.108
     port: 443
     uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
@@ -3682,7 +3290,7 @@ proxies:
       headers:
         Host: bp.hexo.cloudns.ch
   - type: vless
-    name: 美国_64
+    name: 美国_66
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3710,7 +3318,7 @@ proxies:
         Host: www.x-aniu----sg.netlib.re
     client-fingerprint: chrome
   - type: vless
-    name: 美国_65
+    name: 美国_67
     server: 193.124.18.109
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3723,7 +3331,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_66
+    name: 美国_68
     server: 193.124.18.109
     port: 2053
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3737,7 +3345,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_67
+    name: 美国_69
     server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3750,7 +3358,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_68
+    name: 美国_70
     server: 154.17.225.73
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3778,15 +3386,8 @@ proxies:
     client-fingerprint: random
     alpn:
       - h3
-  - type: hysteria2
-    name: 香港_27
-    server: aa563af0-t48f40-tgzvop-hns7.hk1.hyhuawei.com
-    port: 443
-    password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    skip-cert-verify: true
-    sni: aa563af0-t48f40-tgzvop-hns7.hk1.hyhuawei.com
   - type: vless
-    name: 美国_69
+    name: 美国_71
     server: 108.162.198.24
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3798,36 +3399,8 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 香港_28
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "       [By EbraSha] b2n.ir/v2ray-configs | 690 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_29
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "      "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_30
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-    tls: true
   - type: vless
-    name: 美国_70
+    name: 美国_72
     server: 108.162.198.11
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3840,7 +3413,7 @@ proxies:
       headers:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
-    name: 美国_71
+    name: 美国_73
     server: 108.162.198.11
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3854,7 +3427,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_72
+    name: 美国_74
     server: freeyx.cloudflare88.eu.org
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3883,7 +3456,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_73
+    name: 美国_75
     server: 108.162.198.24
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3897,7 +3470,7 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
     client-fingerprint: chrome
   - type: vless
-    name: 美国_74
+    name: 美国_76
     server: 108.162.198.24
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3908,7 +3481,7 @@ proxies:
     ws-opts:
       path: /?ed=2560
   - type: vless
-    name: 美国_75
+    name: 美国_77
     server: freeyx.cloudflare88.eu.org
     port: 2096
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3937,7 +3510,7 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 美国_76
+    name: 美国_78
     server: 8.217.180.234
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -3949,126 +3522,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: trojan
-    name: 香港（2025.12.2更新）
-    server: 112.118.116.66
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-    tls: true
-  - type: vmess
-    name: 美国_77
-    server: 47.243.69.126
-    port: 31904
-    uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 47.243.69.126
-  - type: trojan
-    name: 香港_31
-    server: 112.118.116.66
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_32
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 964 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_33
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 75 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_34
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 749 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_35
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: ������
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_36
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 690 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: hysteria2
-    name: 香港_37
-    server: d753f91c-t4a9s0-th3q8a-1iyov.hk1.hyhuawei.com
-    port: 443
-    password: 33629870-e57e-11ec-bb74-f23c9164ca5d
-    skip-cert-verify: true
-    sni: d753f91c-t4a9s0-th3q8a-1iyov.hk1.hyhuawei.com
-  - type: hysteria2
-    name: 香港_38
-    server: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
-    port: 443
-    password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-    skip-cert-verify: true
-    sni: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
-  - type: hysteria2
-    name: 香港_39
-    server: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
-    port: 443
-    password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-    skip-cert-verify: true
-    sni: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
-  - type: hysteria2
-    name: 香港_40
-    server: ca7ed722-t48f40-tfeciy-1iddy.hk1.hyhuawei.com
-    port: 443
-    password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-    skip-cert-verify: true
-    sni: ca7ed722-t48f40-tfeciy-1iddy.hk1.hyhuawei.com
-  - type: hysteria2
-    name: 香港_41
-    server: a9252616-t4c4g0-tlvq5w-1jcwu.hk1.hyhuawei.com
-    port: 443
-    password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-    skip-cert-verify: true
-    sni: a9252616-t4c4g0-tlvq5w-1jcwu.hk1.hyhuawei.com
-  - type: vmess
-    name: 美国_78
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: v12.hdacd.com
   - type: vless
     name: 德国_22
     server: de2.ultima.foundation
@@ -4096,15 +3549,6 @@ proxies:
       public-key: gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng
     client-fingerprint: edge
     flow: xtls-rprx-vision
-  - type: trojan
-    name: 香港_42
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - type: vless
     name: 德国_23
     server: de-cdn.ultima.foundation
@@ -4131,22 +3575,6 @@ proxies:
       path: /
       headers:
         Host: zorox-net.senu-zer.online
-  - type: trojan
-    name: 香港_43
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-    tls: true
-  - type: vmess
-    name: 美国_80
-    server: 47.243.69.126
-    port: 31904
-    uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
-    alterId: 0
-    network: tcp
-    cipher: auto
   - type: vless
     name: 加拿大_1
     server: 14.102.228.75
@@ -4159,45 +3587,8 @@ proxies:
       path: /vless/
       headers:
         Host: ov-canada1.09vpn.com
-  - type: hysteria2
-    name: 香港_44
-    server: 0bc36274-t48f40-tk30wc-eyem.hk1.hyhuawei.com
-    port: 443
-    password: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
-    skip-cert-verify: true
-    sni: 0bc36274-t48f40-tk30wc-eyem.hk1.hyhuawei.com
-  - type: trojan
-    name: 香港_45
-    server: 58.152.53.8
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 956 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: hysteria2
-    name: 香港_46
-    server: e7ce31fe-t48f40-tjsm26-6gn6.hk1.hyhuawei.com
-    port: 443
-    password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-    skip-cert-verify: true
-    sni: e7ce31fe-t48f40-tjsm26-6gn6.hk1.hyhuawei.com
-  - type: ss
-    name: 俄罗斯_38
-    server: 213.159.67.124
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  - type: hysteria2
-    name: 香港_47
-    server: a4509d29-t44ps0-tcsjnd-1tff5.hk1.hyhuawei.com
-    port: 443
-    password: dfb6b402-f422-11ef-80e5-f23c9164ca5d
-    skip-cert-verify: true
-    sni: a4509d29-t44ps0-tcsjnd-1tff5.hk1.hyhuawei.com
   - type: vless
-    name: 美国_81
+    name: 美国_80
     server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
     port: 443
     uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
@@ -4223,30 +3614,8 @@ proxies:
       public-key: gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng
     client-fingerprint: qq
     flow: xtls-rprx-vision
-  - type: hysteria2
-    name: 香港_48
-    server: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
-    port: 443
-    password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-    skip-cert-verify: true
-    sni: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
-  - type: trojan
-    name: 美国_82
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
-  - type: ss
-    name: 俄罗斯_39
-    server: 109.71.246.210
-    port: 56689
-    cipher: chacha20-ietf-poly1305
-    password: YQCSKoCF3QazW8YlvDBWA4
   - type: vless
-    name: 美国_83
+    name: 美国_81
     server: ru-cdn-cloud-2.ultima.foundation
     port: 443
     uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
@@ -4272,59 +3641,7 @@ proxies:
       path: /ws
     client-fingerprint: chrome
   - type: vless
-    name: 德國
-    server: wangcai151.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: trojan
-    name: 俄罗斯_40
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: m.vk.com
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 俄罗斯_41
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 587 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 俄罗斯_42
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: 37.18.14.33
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 俄罗斯_43
-    server: 37.18.14.33
-    port: 443
-    password: Qzy7tgpRhu
-    network: tcp
-    sni: sun9-101.userapi.com
-    skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 俄罗斯_44
+    name: 俄罗斯_33
     server: wolfy.ufavpn.ru
     port: 52900
     uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
@@ -4336,6 +3653,517 @@ proxies:
       public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
       short-id: 1fbc
     client-fingerprint: chrome
+  - type: trojan
+    name: 01(TG:@tccjd)_7
+    server: psg2-ag.t.sgateway.link
+    port: 5223
+    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+    network: tcp
+    sni: pod-kr-g1.psusercontent.com
+    tls: true
+  - type: trojan
+    name: 03(TG:@tccjd)_6
+    server: psg2-ag.t.sgateway.link
+    port: 5223
+    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+    network: tcp
+    sni: pod-kr-g1.psusercontent.com
+    tls: true
+  - type: trojan
+    name: 04(TG:@tccjd)_6
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 05(TG:@tccjd)_3
+    server: psg2-ag.t.sgateway.link
+    port: 5223
+    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+    network: tcp
+    sni: pod-kr-g1.psusercontent.com
+    tls: true
+  - type: trojan
+    name: 05(TG:@tccjd)_4
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 06(TG:@tccjd)_2
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 🇭🇰 香港4|@stairnode
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 🇭🇰 香港5|@stairnode
+    server: 58.152.30.175
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 01(TG:@tccjd)_8
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 02(TG:@tccjd)_7
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 01(TG:@tccjd)_9
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 02(TG:@tccjd)_8
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 03(TG:@tccjd)_7
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 02(TG:@tccjd)_9
+    server: azerb.net
+    port: 443
+    password: trojan
+    network: ws
+    sni: store.timimi.dpdns.org
+    alpn:
+      - h2
+      - http/1.1
+    fingerprint: chrome
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: store.timimi.dpdns.org
+  - type: trojan
+    name: 05(TG:@tccjd)_5
+    server: kuame.missionsec.us
+    port: 443
+    password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
+    network: tcp
+    sni: kuame.missionsec.us
+    tls: true
+  - type: trojan
+    name: 12(TG:@tccjd)_2
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: m.vk.com
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_12
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_13
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "       [By EbraSha] b2n.ir/v2ray-configs | 690 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_34
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: ������
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_35
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: "������ [By EbraSha] trojan-RU "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_36
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 587 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_37
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: "������ [By EbraSha] "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_38
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: 37.18.14.33
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_14
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_15
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 964 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_39
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: sun9-101.userapi.com
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_40
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 28 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_16
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: 58.152.53.8
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_17
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 749 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_18
+    server: 112.118.116.66
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_19
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 956 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_20
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 851 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_21
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: ������
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_22
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_23
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 987 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_24
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: 58.152.18.95
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_25
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "      "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_26
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "       [By EbraSha] b2n.ir/v2ray-configs | 690 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_27
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "      "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_28
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港（2025.12.2更新）
+    server: 112.118.116.66
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_29
+    server: 112.118.116.66
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_30
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 964 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_31
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 75 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_32
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 749 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_33
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: ������
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_34
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 690 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_35
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_36
+    server: 58.152.18.95
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_37
+    server: 58.152.53.8
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 956 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_41
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: m.vk.com
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_42
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 587 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 俄罗斯_43
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: 37.18.14.33
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 俄罗斯_44
+    server: 37.18.14.33
+    port: 443
+    password: Qzy7tgpRhu
+    network: tcp
+    sni: sun9-101.userapi.com
+    skip-cert-verify: true
+    tls: true
   - type: trojan
     name: 俄罗斯_45
     server: 37.18.14.33
@@ -4375,82 +4203,8 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: vmess
-    name: 美国_84
-    server: B70-B127-17F0Dc22455E.457.Pp.Ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-    alterId: 0
-    network: xhttp
-    cipher: auto
-    servername: b70-B127-17f0Dc22455E.457.pP.ua
-    tls: true
-  - type: vless
-    name: 烏克蘭
-    server: 4069-a9d0-b967c7529ac7.457.pp.ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-    network: http
-    servername: 4069-a9d0-b967c7529ac7.457.pp.ua
-    tls: true
-    encryption: none
-    http-opts:
-      path: /dgK6j67SvaPqspF7njNFy6
-      headers:
-        Host: 4069-a9d0-b967c7529ac7.457.pp.ua
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_1
-    server: wangcai137.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: ss
-    name: 法国_9
-    server: 95.111.222.113
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  - type: vless
-    name: 德國_2
-    server: wangcai93.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_3
-    server: wangcai35.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
   - type: trojan
-    name: 香港_49
+    name: 香港_38
     server: 58.152.18.95
     port: 443
     password: BxceQaOe
@@ -4458,288 +4212,8 @@ proxies:
     sni: 58.152.18.95
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 德國_4
-    server: wangcai48.000444.cn
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_5
-    server: wangcai119.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_6
-    server: wangcai251.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_7
-    server: wangcai49.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_8
-    server: wangcai27.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_9
-    server: wangcai231.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_10
-    server: wangcai17.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_11
-    server: wangcai209.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_12
-    server: wangcai243.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_13
-    server: wangcai109.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_14
-    server: wangcai63.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_15
-    server: wangcai73.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_16
-    server: wangcai165.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_17
-    server: wangcai245.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_18
-    server: wangcai23.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_19
-    server: wangcai234.000444.cn
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_20
-    server: wangcai154.000444.cn
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_21
-    server: wangcai138.000444.cn
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_22
-    server: wangcai169.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 德國_23
-    server: wangcai173.cloudflare.182682.xyz
-    port: 443
-    uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
-    network: http
-    servername: cho.chonon.sbs
-    tls: true
-    encryption: none
-    http-opts:
-      path: /gdsthjjjvfxsstyy؟ed=443
-    client-fingerprint: chrome
-    alpn:
-      - h3
   - type: trojan
-    name: 香港_50
+    name: 香港_39
     server: 58.152.53.8
     port: 443
     password: BxceQaOe
@@ -4747,58 +4221,131 @@ proxies:
     sni: 58.152.53.8
     skip-cert-verify: true
     tls: true
+  - type: hysteria2
+    name: 法国_9
+    server: 163.172.21.105
+    port: 5355
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: hysteria2
+    name: 香港_40
+    server: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
+    port: 443
+    password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+    skip-cert-verify: true
+    sni: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_41
+    server: aa563af0-t48f40-tgzvop-hns7.hk1.hyhuawei.com
+    port: 443
+    password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+    skip-cert-verify: true
+    sni: aa563af0-t48f40-tgzvop-hns7.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_42
+    server: d753f91c-t4a9s0-th3q8a-1iyov.hk1.hyhuawei.com
+    port: 443
+    password: 33629870-e57e-11ec-bb74-f23c9164ca5d
+    skip-cert-verify: true
+    sni: d753f91c-t4a9s0-th3q8a-1iyov.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_43
+    server: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
+    port: 443
+    password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+    skip-cert-verify: true
+    sni: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_44
+    server: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
+    port: 443
+    password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+    skip-cert-verify: true
+    sni: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_45
+    server: ca7ed722-t48f40-tfeciy-1iddy.hk1.hyhuawei.com
+    port: 443
+    password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+    skip-cert-verify: true
+    sni: ca7ed722-t48f40-tfeciy-1iddy.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_46
+    server: a9252616-t4c4g0-tlvq5w-1jcwu.hk1.hyhuawei.com
+    port: 443
+    password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+    skip-cert-verify: true
+    sni: a9252616-t4c4g0-tlvq5w-1jcwu.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_47
+    server: 0bc36274-t48f40-tk30wc-eyem.hk1.hyhuawei.com
+    port: 443
+    password: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+    skip-cert-verify: true
+    sni: 0bc36274-t48f40-tk30wc-eyem.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_48
+    server: e7ce31fe-t48f40-tjsm26-6gn6.hk1.hyhuawei.com
+    port: 443
+    password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+    skip-cert-verify: true
+    sni: e7ce31fe-t48f40-tjsm26-6gn6.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_49
+    server: a4509d29-t44ps0-tcsjnd-1tff5.hk1.hyhuawei.com
+    port: 443
+    password: dfb6b402-f422-11ef-80e5-f23c9164ca5d
+    skip-cert-verify: true
+    sni: a4509d29-t44ps0-tcsjnd-1tff5.hk1.hyhuawei.com
+  - type: hysteria2
+    name: 香港_50
+    server: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
+    port: 443
+    password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+    skip-cert-verify: true
+    sni: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 美国_12
+      - 🇰🇿 哈萨克斯坦 01
       - 01(TG:@tccjd)
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇷🇺 RU俄罗斯(TG:@tccjd)
+      - 🇺🇸 US美国(TG:@tccjd)_1
+      - 🇺🇸 US美国(TG:@tccjd)_2
+      - 🇦🇺 AU澳大利亚(TG:@tccjd)
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
-      - 05(TG:@tccjd)
-      - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)
-      - 🇰🇿 哈萨克斯坦 01
-      - 01(TG:@tccjd)_1
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇭🇰 香港4|@stairnode
       - 03(TG:@tccjd)_1
-      - 🇷🇺 RU俄罗斯(TG:@tccjd)
       - 04(TG:@tccjd)_1
-      - 🇭🇰 香港5|@stairnode
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_1
+      - 05(TG:@tccjd)
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)
       - 08(TG:@tccjd)
       - 09(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)_1
-      - 🇺🇸 US美国(TG:@tccjd)_2
       - 10(TG:@tccjd)
-      - 🇦🇺 AU澳大利亚(TG:@tccjd)
       - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
-      - 01(TG:@tccjd)_5
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
@@ -4806,24 +4353,35 @@ proxy-groups:
       - 17(TG:@tccjd)
       - 16(TG:@tccjd)
       - 18(TG:@tccjd)
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
-      - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_3
+      - 俄罗斯
+      - 荷兰
+      - 美国_13
+      - 法国
+      - 俄罗斯_1
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 法国_1
+      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_2
+      - 05(TG:@tccjd)_1
+      - 07(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 01(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_3
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
       - 14(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_4
       - 21(TG:@tccjd)
       - 22(TG:@tccjd)
       - 23(TG:@tccjd)
@@ -4861,18 +4419,18 @@ proxy-groups:
       - 54(TG:@tccjd)
       - 55(TG:@tccjd)
       - 56(TG:@tccjd)
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_8
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_4
+      - 01(TG:@tccjd)_5
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_5
+      - 05(TG:@tccjd)_2
+      - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
       - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_2
+      - 12(TG:@tccjd)_1
       - 14(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
       - 15(TG:@tccjd)_1
@@ -4883,208 +4441,216 @@ proxy-groups:
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)
       - 台湾
-      - 美国
-      - 香港
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 美国_6
-      - 美国_7
-      - 美国_8
-      - 香港_1
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
       - 美国_14
-      - 香港_2
-      - 法国
-      - 法国_1
-      - 俄罗斯
-      - 香港_3
-      - 俄罗斯_1
+      - 香港
       - 美国_15
       - 美国_16
-      - 奥地利
       - 美国_17
       - 美国_18
-      - 法国_2
-      - 香港_4
       - 美国_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 香港_1
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 香港_2
+      - 法国_2
+      - 法国_3
+      - 俄罗斯_4
+      - 俄罗斯_5
+      - 美国_26
+      - 美国_27
+      - 奥地利
+      - 香港_3
       - 德国
       - 德国_1
-      - 香港_5
-      - 法国_3
+      - 香港_4
+      - 法国_4
       - 德国_2
       - 印度
       - 德国_3
       - 德国_4
       - 德国_5
       - 德国_6
-      - 美国_20
-      - 俄罗斯_2
-      - 美国_21
-      - 美国_22
-      - 美国_23
-      - 香港_6
-      - 印度_1
-      - 法国_4
-      - 香港_7
-      - 俄罗斯_3
-      - 美国_24
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 美国_25
-      - 法国_5
-      - 美国_26
-      - 俄罗斯_6
-      - 荷兰
-      - 美国_27
-      - 俄罗斯_7
       - 美国_28
+      - 俄罗斯_6
       - 美国_29
+      - 香港_5
+      - 印度_1
+      - 法国_5
+      - 俄罗斯_7
       - 美国_30
+      - 俄罗斯_8
+      - 俄罗斯_9
       - 美国_31
-      - 土耳其
+      - 法国_6
       - 美国_32
       - 美国_33
+      - 俄罗斯_10
       - 美国_34
       - 美国_35
       - 美国_36
-      - 荷兰_1
-      - 俄罗斯_8
-      - 印度_2
-      - 荷兰_2
       - 美国_37
+      - 土耳其
       - 美国_38
       - 美国_39
-      - 俄罗斯_9
-      - 俄罗斯_10
-      - 俄罗斯_11
-      - 香港_8
-      - 俄罗斯_12
-      - 俄罗斯_13
-      - 香港_9
-      - 法国_6
       - 美国_40
       - 美国_41
-      - 香港_10
+      - 荷兰_1
+      - 俄罗斯_11
+      - 印度_2
+      - 荷兰_2
       - 美国_42
-      - 02(TG:@tccjd)_9
-      - 俄罗斯_14
-      - 俄罗斯_15
-      - 伊朗
-      - 俄罗斯_16
-      - 俄罗斯_17
       - 美国_43
+      - 俄罗斯_12
+      - 俄罗斯_13
+      - 俄罗斯_14
+      - 香港_6
+      - 俄罗斯_15
+      - 俄罗斯_16
+      - 香港_7
+      - 法国_7
       - 美国_44
+      - 美国_45
+      - 香港_8
+      - 02(TG:@tccjd)_6
+      - 伊朗
+      - 俄罗斯_17
+      - 美国_46
+      - 美国_47
       - 俄罗斯_18
       - 俄罗斯_19
       - 俄罗斯_20
-      - 俄罗斯_21
       - 德国_7
-      - 01(TG:@tccjd)_9
-      - 俄罗斯_22
+      - 01(TG:@tccjd)_6
+      - 俄罗斯_21
       - 德国_8
       - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
+      - 俄罗斯_22
       - 俄罗斯_23
       - 俄罗斯_24
       - 俄罗斯_25
-      - 俄罗斯_26
-      - 俄罗斯_27
       - 英国
-      - 俄罗斯_28
+      - 俄罗斯_26
       - 新加坡
-      - 法国_7
-      - 美国_45
+      - 美国_48
       - 德国_9
-      - 香港_11
-      - 美国_46
-      - 俄罗斯_29
+      - 美国_49
+      - 俄罗斯_27
       - 德国_10
+      - 俄罗斯_28
+      - 俄罗斯_29
+      - 德国_11
+      - 新加坡_1
+      - 美国_50
+      - 美国_51
+      - 美国_52
       - 俄罗斯_30
       - 俄罗斯_31
-      - 香港_12
-      - 德国_11
       - 俄罗斯_32
-      - 俄罗斯_33
-      - 新加坡_1
-      - 美国_47
-      - 美国_48
-      - 美国_49
-      - 俄罗斯_34
-      - 香港_13
-      - 俄罗斯_35
-      - 俄罗斯_36
-      - 美国_50
       - 德国_12
       - 德国_13
-      - 俄罗斯_37
-      - 美国_51
+      - 美国_53
       - 德国_14
       - 加拿大
-      - 香港_14
       - 英国_1
       - 英国_2
-      - 香港_15
-      - 香港_16
-      - 美国_52
-      - 美国_53
-      - 香港_17
       - 美国_54
-      - 香港_18
-      - 德国_15
       - 美国_55
-      - 香港_19
       - 美国_56
-      - 香港_20
-      - 德国_16
+      - 德国_15
       - 美国_57
+      - 美国_58
+      - 德国_16
+      - 美国_59
       - 德国_17
-      - 香港_21
       - 奥地利_1
       - 德国_18
       - 德国_19
       - 法国_8
+      - 美国_60
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 美国_61
+      - 德国_20
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 德国_21
+      - 美国_65
+      - 美国_66
+      - 新加坡_2
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 英国_3
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 英国_4
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 台湾_1
+      - 美国_78
+      - 德国_22
+      - 奥地利_2
+      - 德国_23
+      - 美国_79
+      - 加拿大_1
+      - 美国_80
+      - 德国_24
+      - 美国_81
+      - 荷兰_3
+      - 俄罗斯_33
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_6
+      - 04(TG:@tccjd)_6
+      - 05(TG:@tccjd)_3
+      - 05(TG:@tccjd)_4
+      - 06(TG:@tccjd)_2
+      - 🇭🇰 香港4|@stairnode
+      - 🇭🇰 香港5|@stairnode
+      - 01(TG:@tccjd)_8
+      - 02(TG:@tccjd)_7
+      - 01(TG:@tccjd)_9
+      - 02(TG:@tccjd)_8
+      - 03(TG:@tccjd)_7
+      - 02(TG:@tccjd)_9
+      - 05(TG:@tccjd)_5
+      - 12(TG:@tccjd)_2
+      - 香港_12
+      - 香港_13
+      - 俄罗斯_34
+      - 俄罗斯_35
+      - 俄罗斯_36
+      - 俄罗斯_37
+      - 俄罗斯_38
+      - 香港_14
+      - 香港_15
+      - 俄罗斯_39
+      - 俄罗斯_40
+      - 香港_16
+      - 香港_17
+      - 香港_18
+      - 香港_19
+      - 香港_20
+      - 香港_21
       - 香港_22
-      - 美国_58
       - 香港_23
       - 香港_24
       - 香港_25
-      - 美国_59
-      - 德国_20
       - 香港_26
-      - 美国_60
-      - 美国_61
-      - 美国_62
-      - 德国_21
-      - 美国_63
-      - 美国_64
-      - 新加坡_2
-      - 美国_65
-      - 美国_66
-      - 美国_67
-      - 美国_68
-      - 英国_3
       - 香港_27
-      - 美国_69
       - 香港_28
+      - 香港（2025.12.2更新）
       - 香港_29
       - 香港_30
-      - 美国_70
-      - 美国_71
-      - 美国_72
-      - 英国_4
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 台湾_1
-      - 美国_76
-      - 香港（2025.12.2更新）
-      - 美国_77
       - 香港_31
       - 香港_32
       - 香港_33
@@ -5092,33 +4658,6 @@ proxy-groups:
       - 香港_35
       - 香港_36
       - 香港_37
-      - 香港_38
-      - 香港_39
-      - 香港_40
-      - 香港_41
-      - 美国_78
-      - 德国_22
-      - 奥地利_2
-      - 香港_42
-      - 德国_23
-      - 美国_79
-      - 香港_43
-      - 美国_80
-      - 加拿大_1
-      - 香港_44
-      - 香港_45
-      - 香港_46
-      - 俄罗斯_38
-      - 香港_47
-      - 美国_81
-      - 德国_24
-      - 香港_48
-      - 美国_82
-      - 俄罗斯_39
-      - 美国_83
-      - 荷兰_3
-      - 德國
-      - 俄罗斯_40
       - 俄罗斯_41
       - 俄罗斯_42
       - 俄罗斯_43
@@ -5127,83 +4666,58 @@ proxy-groups:
       - 俄罗斯_46
       - 俄罗斯_47
       - 俄罗斯_48
-      - 美国_84
-      - 烏克蘭
-      - 德國_1
+      - 香港_38
+      - 香港_39
       - 法国_9
-      - 德國_2
-      - 德國_3
+      - 香港_40
+      - 香港_41
+      - 香港_42
+      - 香港_43
+      - 香港_44
+      - 香港_45
+      - 香港_46
+      - 香港_47
+      - 香港_48
       - 香港_49
-      - 德國_4
-      - 德國_5
-      - 德國_6
-      - 德國_7
-      - 德國_8
-      - 德國_9
-      - 德國_10
-      - 德國_11
-      - 德國_12
-      - 德國_13
-      - 德國_14
-      - 德國_15
-      - 德國_16
-      - 德國_17
-      - 德國_18
-      - 德國_19
-      - 德國_20
-      - 德國_21
-      - 德國_22
-      - 德國_23
       - 香港_50
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 美国_12
+      - 🇰🇿 哈萨克斯坦 01
       - 01(TG:@tccjd)
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇷🇺 RU俄罗斯(TG:@tccjd)
+      - 🇺🇸 US美国(TG:@tccjd)_1
+      - 🇺🇸 US美国(TG:@tccjd)_2
+      - 🇦🇺 AU澳大利亚(TG:@tccjd)
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
-      - 05(TG:@tccjd)
-      - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)
-      - 🇰🇿 哈萨克斯坦 01
-      - 01(TG:@tccjd)_1
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇭🇰 香港4|@stairnode
       - 03(TG:@tccjd)_1
-      - 🇷🇺 RU俄罗斯(TG:@tccjd)
       - 04(TG:@tccjd)_1
-      - 🇭🇰 香港5|@stairnode
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_1
+      - 05(TG:@tccjd)
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)
       - 08(TG:@tccjd)
       - 09(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)_1
-      - 🇺🇸 US美国(TG:@tccjd)_2
       - 10(TG:@tccjd)
-      - 🇦🇺 AU澳大利亚(TG:@tccjd)
       - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
-      - 01(TG:@tccjd)_5
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
@@ -5211,24 +4725,35 @@ proxy-groups:
       - 17(TG:@tccjd)
       - 16(TG:@tccjd)
       - 18(TG:@tccjd)
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
-      - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_3
+      - 俄罗斯
+      - 荷兰
+      - 美国_13
+      - 法国
+      - 俄罗斯_1
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 法国_1
+      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_2
+      - 05(TG:@tccjd)_1
+      - 07(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 01(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_3
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
       - 14(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_4
       - 21(TG:@tccjd)
       - 22(TG:@tccjd)
       - 23(TG:@tccjd)
@@ -5266,18 +4791,18 @@ proxy-groups:
       - 54(TG:@tccjd)
       - 55(TG:@tccjd)
       - 56(TG:@tccjd)
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_8
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_4
+      - 01(TG:@tccjd)_5
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_5
+      - 05(TG:@tccjd)_2
+      - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
       - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_2
+      - 12(TG:@tccjd)_1
       - 14(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
       - 15(TG:@tccjd)_1
@@ -5288,208 +4813,216 @@ proxy-groups:
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)
       - 台湾
-      - 美国
-      - 香港
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 美国_6
-      - 美国_7
-      - 美国_8
-      - 香港_1
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
       - 美国_14
-      - 香港_2
-      - 法国
-      - 法国_1
-      - 俄罗斯
-      - 香港_3
-      - 俄罗斯_1
+      - 香港
       - 美国_15
       - 美国_16
-      - 奥地利
       - 美国_17
       - 美国_18
-      - 法国_2
-      - 香港_4
       - 美国_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 香港_1
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 香港_2
+      - 法国_2
+      - 法国_3
+      - 俄罗斯_4
+      - 俄罗斯_5
+      - 美国_26
+      - 美国_27
+      - 奥地利
+      - 香港_3
       - 德国
       - 德国_1
-      - 香港_5
-      - 法国_3
+      - 香港_4
+      - 法国_4
       - 德国_2
       - 印度
       - 德国_3
       - 德国_4
       - 德国_5
       - 德国_6
-      - 美国_20
-      - 俄罗斯_2
-      - 美国_21
-      - 美国_22
-      - 美国_23
-      - 香港_6
-      - 印度_1
-      - 法国_4
-      - 香港_7
-      - 俄罗斯_3
-      - 美国_24
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 美国_25
-      - 法国_5
-      - 美国_26
-      - 俄罗斯_6
-      - 荷兰
-      - 美国_27
-      - 俄罗斯_7
       - 美国_28
+      - 俄罗斯_6
       - 美国_29
+      - 香港_5
+      - 印度_1
+      - 法国_5
+      - 俄罗斯_7
       - 美国_30
+      - 俄罗斯_8
+      - 俄罗斯_9
       - 美国_31
-      - 土耳其
+      - 法国_6
       - 美国_32
       - 美国_33
+      - 俄罗斯_10
       - 美国_34
       - 美国_35
       - 美国_36
-      - 荷兰_1
-      - 俄罗斯_8
-      - 印度_2
-      - 荷兰_2
       - 美国_37
+      - 土耳其
       - 美国_38
       - 美国_39
-      - 俄罗斯_9
-      - 俄罗斯_10
-      - 俄罗斯_11
-      - 香港_8
-      - 俄罗斯_12
-      - 俄罗斯_13
-      - 香港_9
-      - 法国_6
       - 美国_40
       - 美国_41
-      - 香港_10
+      - 荷兰_1
+      - 俄罗斯_11
+      - 印度_2
+      - 荷兰_2
       - 美国_42
-      - 02(TG:@tccjd)_9
-      - 俄罗斯_14
-      - 俄罗斯_15
-      - 伊朗
-      - 俄罗斯_16
-      - 俄罗斯_17
       - 美国_43
+      - 俄罗斯_12
+      - 俄罗斯_13
+      - 俄罗斯_14
+      - 香港_6
+      - 俄罗斯_15
+      - 俄罗斯_16
+      - 香港_7
+      - 法国_7
       - 美国_44
+      - 美国_45
+      - 香港_8
+      - 02(TG:@tccjd)_6
+      - 伊朗
+      - 俄罗斯_17
+      - 美国_46
+      - 美国_47
       - 俄罗斯_18
       - 俄罗斯_19
       - 俄罗斯_20
-      - 俄罗斯_21
       - 德国_7
-      - 01(TG:@tccjd)_9
-      - 俄罗斯_22
+      - 01(TG:@tccjd)_6
+      - 俄罗斯_21
       - 德国_8
       - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
+      - 俄罗斯_22
       - 俄罗斯_23
       - 俄罗斯_24
       - 俄罗斯_25
-      - 俄罗斯_26
-      - 俄罗斯_27
       - 英国
-      - 俄罗斯_28
+      - 俄罗斯_26
       - 新加坡
-      - 法国_7
-      - 美国_45
+      - 美国_48
       - 德国_9
-      - 香港_11
-      - 美国_46
-      - 俄罗斯_29
+      - 美国_49
+      - 俄罗斯_27
       - 德国_10
+      - 俄罗斯_28
+      - 俄罗斯_29
+      - 德国_11
+      - 新加坡_1
+      - 美国_50
+      - 美国_51
+      - 美国_52
       - 俄罗斯_30
       - 俄罗斯_31
-      - 香港_12
-      - 德国_11
       - 俄罗斯_32
-      - 俄罗斯_33
-      - 新加坡_1
-      - 美国_47
-      - 美国_48
-      - 美国_49
-      - 俄罗斯_34
-      - 香港_13
-      - 俄罗斯_35
-      - 俄罗斯_36
-      - 美国_50
       - 德国_12
       - 德国_13
-      - 俄罗斯_37
-      - 美国_51
+      - 美国_53
       - 德国_14
       - 加拿大
-      - 香港_14
       - 英国_1
       - 英国_2
-      - 香港_15
-      - 香港_16
-      - 美国_52
-      - 美国_53
-      - 香港_17
       - 美国_54
-      - 香港_18
-      - 德国_15
       - 美国_55
-      - 香港_19
       - 美国_56
-      - 香港_20
-      - 德国_16
+      - 德国_15
       - 美国_57
+      - 美国_58
+      - 德国_16
+      - 美国_59
       - 德国_17
-      - 香港_21
       - 奥地利_1
       - 德国_18
       - 德国_19
       - 法国_8
+      - 美国_60
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 美国_61
+      - 德国_20
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 德国_21
+      - 美国_65
+      - 美国_66
+      - 新加坡_2
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 英国_3
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 英国_4
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 台湾_1
+      - 美国_78
+      - 德国_22
+      - 奥地利_2
+      - 德国_23
+      - 美国_79
+      - 加拿大_1
+      - 美国_80
+      - 德国_24
+      - 美国_81
+      - 荷兰_3
+      - 俄罗斯_33
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_6
+      - 04(TG:@tccjd)_6
+      - 05(TG:@tccjd)_3
+      - 05(TG:@tccjd)_4
+      - 06(TG:@tccjd)_2
+      - 🇭🇰 香港4|@stairnode
+      - 🇭🇰 香港5|@stairnode
+      - 01(TG:@tccjd)_8
+      - 02(TG:@tccjd)_7
+      - 01(TG:@tccjd)_9
+      - 02(TG:@tccjd)_8
+      - 03(TG:@tccjd)_7
+      - 02(TG:@tccjd)_9
+      - 05(TG:@tccjd)_5
+      - 12(TG:@tccjd)_2
+      - 香港_12
+      - 香港_13
+      - 俄罗斯_34
+      - 俄罗斯_35
+      - 俄罗斯_36
+      - 俄罗斯_37
+      - 俄罗斯_38
+      - 香港_14
+      - 香港_15
+      - 俄罗斯_39
+      - 俄罗斯_40
+      - 香港_16
+      - 香港_17
+      - 香港_18
+      - 香港_19
+      - 香港_20
+      - 香港_21
       - 香港_22
-      - 美国_58
       - 香港_23
       - 香港_24
       - 香港_25
-      - 美国_59
-      - 德国_20
       - 香港_26
-      - 美国_60
-      - 美国_61
-      - 美国_62
-      - 德国_21
-      - 美国_63
-      - 美国_64
-      - 新加坡_2
-      - 美国_65
-      - 美国_66
-      - 美国_67
-      - 美国_68
-      - 英国_3
       - 香港_27
-      - 美国_69
       - 香港_28
+      - 香港（2025.12.2更新）
       - 香港_29
       - 香港_30
-      - 美国_70
-      - 美国_71
-      - 美国_72
-      - 英国_4
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 台湾_1
-      - 美国_76
-      - 香港（2025.12.2更新）
-      - 美国_77
       - 香港_31
       - 香港_32
       - 香港_33
@@ -5497,33 +5030,6 @@ proxy-groups:
       - 香港_35
       - 香港_36
       - 香港_37
-      - 香港_38
-      - 香港_39
-      - 香港_40
-      - 香港_41
-      - 美国_78
-      - 德国_22
-      - 奥地利_2
-      - 香港_42
-      - 德国_23
-      - 美国_79
-      - 香港_43
-      - 美国_80
-      - 加拿大_1
-      - 香港_44
-      - 香港_45
-      - 香港_46
-      - 俄罗斯_38
-      - 香港_47
-      - 美国_81
-      - 德国_24
-      - 香港_48
-      - 美国_82
-      - 俄罗斯_39
-      - 美国_83
-      - 荷兰_3
-      - 德國
-      - 俄罗斯_40
       - 俄罗斯_41
       - 俄罗斯_42
       - 俄罗斯_43
@@ -5532,33 +5038,19 @@ proxy-groups:
       - 俄罗斯_46
       - 俄罗斯_47
       - 俄罗斯_48
-      - 美国_84
-      - 烏克蘭
-      - 德國_1
+      - 香港_38
+      - 香港_39
       - 法国_9
-      - 德國_2
-      - 德國_3
+      - 香港_40
+      - 香港_41
+      - 香港_42
+      - 香港_43
+      - 香港_44
+      - 香港_45
+      - 香港_46
+      - 香港_47
+      - 香港_48
       - 香港_49
-      - 德國_4
-      - 德國_5
-      - 德國_6
-      - 德國_7
-      - 德國_8
-      - 德國_9
-      - 德國_10
-      - 德國_11
-      - 德國_12
-      - 德國_13
-      - 德國_14
-      - 德國_15
-      - 德國_16
-      - 德國_17
-      - 德國_18
-      - 德國_19
-      - 德國_20
-      - 德國_21
-      - 德國_22
-      - 德國_23
       - 香港_50
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -5579,52 +5071,41 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 美国_12
+      - 🇰🇿 哈萨克斯坦 01
       - 01(TG:@tccjd)
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇷🇺 RU俄罗斯(TG:@tccjd)
+      - 🇺🇸 US美国(TG:@tccjd)_1
+      - 🇺🇸 US美国(TG:@tccjd)_2
+      - 🇦🇺 AU澳大利亚(TG:@tccjd)
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
-      - 05(TG:@tccjd)
-      - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)
-      - 🇰🇿 哈萨克斯坦 01
-      - 01(TG:@tccjd)_1
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇭🇰 香港4|@stairnode
       - 03(TG:@tccjd)_1
-      - 🇷🇺 RU俄罗斯(TG:@tccjd)
       - 04(TG:@tccjd)_1
-      - 🇭🇰 香港5|@stairnode
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_1
+      - 05(TG:@tccjd)
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)
       - 08(TG:@tccjd)
       - 09(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)_1
-      - 🇺🇸 US美国(TG:@tccjd)_2
       - 10(TG:@tccjd)
-      - 🇦🇺 AU澳大利亚(TG:@tccjd)
       - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
-      - 01(TG:@tccjd)_5
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
@@ -5632,24 +5113,35 @@ proxy-groups:
       - 17(TG:@tccjd)
       - 16(TG:@tccjd)
       - 18(TG:@tccjd)
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
-      - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_3
+      - 俄罗斯
+      - 荷兰
+      - 美国_13
+      - 法国
+      - 俄罗斯_1
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 法国_1
+      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_2
+      - 05(TG:@tccjd)_1
+      - 07(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 01(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_3
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
       - 14(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_4
       - 21(TG:@tccjd)
       - 22(TG:@tccjd)
       - 23(TG:@tccjd)
@@ -5687,18 +5179,18 @@ proxy-groups:
       - 54(TG:@tccjd)
       - 55(TG:@tccjd)
       - 56(TG:@tccjd)
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_8
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_4
+      - 01(TG:@tccjd)_5
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_5
+      - 05(TG:@tccjd)_2
+      - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
       - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_2
+      - 12(TG:@tccjd)_1
       - 14(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
       - 15(TG:@tccjd)_1
@@ -5709,208 +5201,216 @@ proxy-groups:
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)
       - 台湾
-      - 美国
-      - 香港
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 美国_6
-      - 美国_7
-      - 美国_8
-      - 香港_1
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
       - 美国_14
-      - 香港_2
-      - 法国
-      - 法国_1
-      - 俄罗斯
-      - 香港_3
-      - 俄罗斯_1
+      - 香港
       - 美国_15
       - 美国_16
-      - 奥地利
       - 美国_17
       - 美国_18
-      - 法国_2
-      - 香港_4
       - 美国_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 香港_1
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 香港_2
+      - 法国_2
+      - 法国_3
+      - 俄罗斯_4
+      - 俄罗斯_5
+      - 美国_26
+      - 美国_27
+      - 奥地利
+      - 香港_3
       - 德国
       - 德国_1
-      - 香港_5
-      - 法国_3
+      - 香港_4
+      - 法国_4
       - 德国_2
       - 印度
       - 德国_3
       - 德国_4
       - 德国_5
       - 德国_6
-      - 美国_20
-      - 俄罗斯_2
-      - 美国_21
-      - 美国_22
-      - 美国_23
-      - 香港_6
-      - 印度_1
-      - 法国_4
-      - 香港_7
-      - 俄罗斯_3
-      - 美国_24
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 美国_25
-      - 法国_5
-      - 美国_26
-      - 俄罗斯_6
-      - 荷兰
-      - 美国_27
-      - 俄罗斯_7
       - 美国_28
+      - 俄罗斯_6
       - 美国_29
+      - 香港_5
+      - 印度_1
+      - 法国_5
+      - 俄罗斯_7
       - 美国_30
+      - 俄罗斯_8
+      - 俄罗斯_9
       - 美国_31
-      - 土耳其
+      - 法国_6
       - 美国_32
       - 美国_33
+      - 俄罗斯_10
       - 美国_34
       - 美国_35
       - 美国_36
-      - 荷兰_1
-      - 俄罗斯_8
-      - 印度_2
-      - 荷兰_2
       - 美国_37
+      - 土耳其
       - 美国_38
       - 美国_39
-      - 俄罗斯_9
-      - 俄罗斯_10
-      - 俄罗斯_11
-      - 香港_8
-      - 俄罗斯_12
-      - 俄罗斯_13
-      - 香港_9
-      - 法国_6
       - 美国_40
       - 美国_41
-      - 香港_10
+      - 荷兰_1
+      - 俄罗斯_11
+      - 印度_2
+      - 荷兰_2
       - 美国_42
-      - 02(TG:@tccjd)_9
-      - 俄罗斯_14
-      - 俄罗斯_15
-      - 伊朗
-      - 俄罗斯_16
-      - 俄罗斯_17
       - 美国_43
+      - 俄罗斯_12
+      - 俄罗斯_13
+      - 俄罗斯_14
+      - 香港_6
+      - 俄罗斯_15
+      - 俄罗斯_16
+      - 香港_7
+      - 法国_7
       - 美国_44
+      - 美国_45
+      - 香港_8
+      - 02(TG:@tccjd)_6
+      - 伊朗
+      - 俄罗斯_17
+      - 美国_46
+      - 美国_47
       - 俄罗斯_18
       - 俄罗斯_19
       - 俄罗斯_20
-      - 俄罗斯_21
       - 德国_7
-      - 01(TG:@tccjd)_9
-      - 俄罗斯_22
+      - 01(TG:@tccjd)_6
+      - 俄罗斯_21
       - 德国_8
       - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
+      - 俄罗斯_22
       - 俄罗斯_23
       - 俄罗斯_24
       - 俄罗斯_25
-      - 俄罗斯_26
-      - 俄罗斯_27
       - 英国
-      - 俄罗斯_28
+      - 俄罗斯_26
       - 新加坡
-      - 法国_7
-      - 美国_45
+      - 美国_48
       - 德国_9
-      - 香港_11
-      - 美国_46
-      - 俄罗斯_29
+      - 美国_49
+      - 俄罗斯_27
       - 德国_10
+      - 俄罗斯_28
+      - 俄罗斯_29
+      - 德国_11
+      - 新加坡_1
+      - 美国_50
+      - 美国_51
+      - 美国_52
       - 俄罗斯_30
       - 俄罗斯_31
-      - 香港_12
-      - 德国_11
       - 俄罗斯_32
-      - 俄罗斯_33
-      - 新加坡_1
-      - 美国_47
-      - 美国_48
-      - 美国_49
-      - 俄罗斯_34
-      - 香港_13
-      - 俄罗斯_35
-      - 俄罗斯_36
-      - 美国_50
       - 德国_12
       - 德国_13
-      - 俄罗斯_37
-      - 美国_51
+      - 美国_53
       - 德国_14
       - 加拿大
-      - 香港_14
       - 英国_1
       - 英国_2
-      - 香港_15
-      - 香港_16
-      - 美国_52
-      - 美国_53
-      - 香港_17
       - 美国_54
-      - 香港_18
-      - 德国_15
       - 美国_55
-      - 香港_19
       - 美国_56
-      - 香港_20
-      - 德国_16
+      - 德国_15
       - 美国_57
+      - 美国_58
+      - 德国_16
+      - 美国_59
       - 德国_17
-      - 香港_21
       - 奥地利_1
       - 德国_18
       - 德国_19
       - 法国_8
+      - 美国_60
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 美国_61
+      - 德国_20
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 德国_21
+      - 美国_65
+      - 美国_66
+      - 新加坡_2
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 英国_3
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 英国_4
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 台湾_1
+      - 美国_78
+      - 德国_22
+      - 奥地利_2
+      - 德国_23
+      - 美国_79
+      - 加拿大_1
+      - 美国_80
+      - 德国_24
+      - 美国_81
+      - 荷兰_3
+      - 俄罗斯_33
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_6
+      - 04(TG:@tccjd)_6
+      - 05(TG:@tccjd)_3
+      - 05(TG:@tccjd)_4
+      - 06(TG:@tccjd)_2
+      - 🇭🇰 香港4|@stairnode
+      - 🇭🇰 香港5|@stairnode
+      - 01(TG:@tccjd)_8
+      - 02(TG:@tccjd)_7
+      - 01(TG:@tccjd)_9
+      - 02(TG:@tccjd)_8
+      - 03(TG:@tccjd)_7
+      - 02(TG:@tccjd)_9
+      - 05(TG:@tccjd)_5
+      - 12(TG:@tccjd)_2
+      - 香港_12
+      - 香港_13
+      - 俄罗斯_34
+      - 俄罗斯_35
+      - 俄罗斯_36
+      - 俄罗斯_37
+      - 俄罗斯_38
+      - 香港_14
+      - 香港_15
+      - 俄罗斯_39
+      - 俄罗斯_40
+      - 香港_16
+      - 香港_17
+      - 香港_18
+      - 香港_19
+      - 香港_20
+      - 香港_21
       - 香港_22
-      - 美国_58
       - 香港_23
       - 香港_24
       - 香港_25
-      - 美国_59
-      - 德国_20
       - 香港_26
-      - 美国_60
-      - 美国_61
-      - 美国_62
-      - 德国_21
-      - 美国_63
-      - 美国_64
-      - 新加坡_2
-      - 美国_65
-      - 美国_66
-      - 美国_67
-      - 美国_68
-      - 英国_3
       - 香港_27
-      - 美国_69
       - 香港_28
+      - 香港（2025.12.2更新）
       - 香港_29
       - 香港_30
-      - 美国_70
-      - 美国_71
-      - 美国_72
-      - 英国_4
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 台湾_1
-      - 美国_76
-      - 香港（2025.12.2更新）
-      - 美国_77
       - 香港_31
       - 香港_32
       - 香港_33
@@ -5918,33 +5418,6 @@ proxy-groups:
       - 香港_35
       - 香港_36
       - 香港_37
-      - 香港_38
-      - 香港_39
-      - 香港_40
-      - 香港_41
-      - 美国_78
-      - 德国_22
-      - 奥地利_2
-      - 香港_42
-      - 德国_23
-      - 美国_79
-      - 香港_43
-      - 美国_80
-      - 加拿大_1
-      - 香港_44
-      - 香港_45
-      - 香港_46
-      - 俄罗斯_38
-      - 香港_47
-      - 美国_81
-      - 德国_24
-      - 香港_48
-      - 美国_82
-      - 俄罗斯_39
-      - 美国_83
-      - 荷兰_3
-      - 德國
-      - 俄罗斯_40
       - 俄罗斯_41
       - 俄罗斯_42
       - 俄罗斯_43
@@ -5953,33 +5426,19 @@ proxy-groups:
       - 俄罗斯_46
       - 俄罗斯_47
       - 俄罗斯_48
-      - 美国_84
-      - 烏克蘭
-      - 德國_1
+      - 香港_38
+      - 香港_39
       - 法国_9
-      - 德國_2
-      - 德國_3
+      - 香港_40
+      - 香港_41
+      - 香港_42
+      - 香港_43
+      - 香港_44
+      - 香港_45
+      - 香港_46
+      - 香港_47
+      - 香港_48
       - 香港_49
-      - 德國_4
-      - 德國_5
-      - 德國_6
-      - 德國_7
-      - 德國_8
-      - 德國_9
-      - 德國_10
-      - 德國_11
-      - 德國_12
-      - 德國_13
-      - 德國_14
-      - 德國_15
-      - 德國_16
-      - 德國_17
-      - 德國_18
-      - 德國_19
-      - 德國_20
-      - 德國_21
-      - 德國_22
-      - 德國_23
       - 香港_50
 rule-providers:
   LocalAreaNetwork:
